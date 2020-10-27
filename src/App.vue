@@ -7,7 +7,7 @@
       <!-- <button class="button is-primary" > Buscar </button> -->
 
       <!-- <div v-for="(poke, index) in pokemons" :key="index"> -->
-      <div v-for="(poke, index) in resultadoBusca" :key="index">
+      <div v-for="(poke, index) in resultadoBusca" :key="poke.url">
         <Pokemon :name="poke.name" :url="poke.url" :num="index + 1" />
       </div>
     </div>
