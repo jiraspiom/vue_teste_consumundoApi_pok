@@ -1,4 +1,8 @@
 # pokedex
+Consumindo api https://pokeapi.co/
+
+- mostrar todos os pk da primeira geração
+- implementado busca simples.
 
 ## Project setup
 ```
